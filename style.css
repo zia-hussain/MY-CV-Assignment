@@ -190,3 +190,40 @@ hr{
   border: none;
   background-color: #fbb03b;
 }
+
+@media screen and (max-width: 480px) {
+  body {
+    height: auto; /* Reset the body height */
+    /* font-size: 10px; */
+  }
+
+  .main {
+   
+    margin-top: 35px; /* Adjust margin for mobile */
+    margin-left: 185px;
+  }
+
+  .profile-img {
+    height: 100px;
+    width: 100px;
+    margin-bottom: 10px; /* Adjust the profile image size and margin */
+    margin-left: 0;
+    border: 5px solid #fbb03b; /* Adjust border size */
+  }
+
+  .box-2 {
+    padding: 0 5%;
+  margin-top: 20px;
+  }
+
+  .p2 {
+    font-size: 10px;
+    word-spacing: 1px;
+    line-height: 16px;
+  }
+
+  h2 {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+}
